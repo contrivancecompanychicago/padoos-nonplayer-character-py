@@ -1,0 +1,9 @@
+cors:
+  origins:
+    - https://studio.apollographql.com
+headers:
+  subgraphs:
+    cosine-mud-box:
+      request:
+        - propagate:
+            matching: ".*"
